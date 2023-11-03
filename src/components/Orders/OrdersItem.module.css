@@ -1,0 +1,21 @@
+.cardO {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .cardO div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cardO {
+      flex-direction: column;
+    }
+  }

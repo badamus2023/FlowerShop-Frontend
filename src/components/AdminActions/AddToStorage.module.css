@@ -1,0 +1,39 @@
+.addToStorage {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 20rem;
+  }
+  
+  .addToStorage button {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .addToStorage button:hover {
+    opacity: 0.7;
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    color: #46366D;
+}
+  
+  @media screen and (max-width: 768px) {
+    .addToStorage {
+      height: 3.5rem;
+    }
+  
+    .addToStorage button {
+      padding: 0.4rem 0.8rem;
+    }
+
+    .loading {
+      height: 3.5rem;
+  }
+
+  }

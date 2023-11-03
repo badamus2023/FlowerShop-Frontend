@@ -1,0 +1,28 @@
+.pContainer {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2rem; /* Adjusted margin for smaller screens */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.loading {
+  display: flex;
+  align-self: center;
+  width: 100%; 
+  justify-content: center; 
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .pContainer {
+      margin-left: 5%;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      gap: 3px;
+      justify-content: center;
+    }
+  }

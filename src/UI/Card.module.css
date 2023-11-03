@@ -1,0 +1,10 @@
+.card {
+  padding: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  width: 90%;
+  max-width: 20rem; 
+  height: auto; 
+  max-height: 25rem; 
+  }
+  

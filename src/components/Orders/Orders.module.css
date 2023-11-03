@@ -1,0 +1,14 @@
+.orderC {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .orderC {
+      justify-content: flex-start; 
+      max-height: 30rem;
+    }
+  }

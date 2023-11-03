@@ -1,0 +1,89 @@
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #46366D;
+    margin-top: 1rem;
+}
+
+.flowerImg {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.title {
+    font-size: 24px;
+}
+
+.description {
+    font-size: 16px
+};
+
+.price {
+    font-size: 32px;
+}
+
+.addButton {
+    margin-top: 2px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.addButton button {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    color: #46366D;
+    letter-spacing: 1px;
+}
+
+.addButton button:hover {
+    opacity: 0.7;
+}
+
+.noAuthModal h5 {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: #46366D;
+font-family: 'Tilt Neon', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .itemContainer {
+      margin-top: 0.3rem;
+    }
+  
+    .flowerImg {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    .title {
+      font-size: 16px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .price {
+      font-size: 20px;
+    }
+  
+    .addButton {
+      margin-top: 0.5px;
+      height: 1.5rem;
+    }
+  
+    .addButton button {
+      border-radius: 12px;
+      font-size: 12px;
+    }
+  }

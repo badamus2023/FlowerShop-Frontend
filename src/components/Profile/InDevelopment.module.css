@@ -1,0 +1,26 @@
+.inDevelopmentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #46366D;
+    font-family: 'Tilt Neon', sans-serif;
+    flex-direction: column;
+    gap: 1rem;
+    letter-spacing: 2px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.actions button {
+    background-color: white;
+    color: #46366D;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.actions button:hover {
+    opacity: 0.7;
+}

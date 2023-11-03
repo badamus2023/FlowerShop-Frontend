@@ -1,0 +1,16 @@
+.itemC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .itemC {
+      flex-direction: column;
+      align-items: flex-start; 
+      padding: 1rem; 
+    }
+  }

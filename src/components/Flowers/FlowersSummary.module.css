@@ -1,0 +1,40 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    background-color: #f9f9f9;
+    color: #46366D;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Handlee', cursive;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .summary h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    color:#46366D;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+
+  @media screen and (max-width: 768px) {
+    .summary {
+      padding: 1.5rem;
+    }
+  
+    .summary h2 {
+      font-size: 1.2rem;
+    }
+  
+    .offer {
+      height: 6rem;
+    }
+  }
+  

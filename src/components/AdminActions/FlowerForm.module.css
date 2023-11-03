@@ -1,0 +1,55 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .inputSections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem; 
+  }
+  
+  .inputSections label {
+    margin-top: 0.8rem; 
+    font-size: 18px; 
+    color: #46366D;
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: center; 
+  }
+  
+  .inputSections input {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 0.5rem; 
+  }
+  
+  .actionsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .actionsSection button {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: #46366D;
+    border: none;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .inputSections label {
+      font-size: 16px;
+    }
+  }

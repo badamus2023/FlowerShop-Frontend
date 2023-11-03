@@ -1,0 +1,61 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  color: #46366D;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.cartFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem; 
+    font-size: 16px; 
+    color: #46366D;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .cartFooter button {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #46366D;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .cartFooter button:hover {
+    opacity: 0.7;
+  }
+  
+  .emptyCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #46366D;
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 1rem; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cartFooter {
+      font-size: 14px; 
+    }
+  
+    .cartFooter button {
+      font-size: 14px; 
+    }
+  }
