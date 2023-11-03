@@ -49,7 +49,7 @@ const FlowerItem = ({ flower }) => {
       <div className={classes.itemContainer}>
         <img
           className={classes.flowerImg}
-          src={`http://localhost:3000/${flower.image}`}
+          src={`https://flowershop-backend-production.up.railway.app/${flower.image}`}
           alt={flower.name}
         />
         <div className={classes.title}>{flower.name}</div>

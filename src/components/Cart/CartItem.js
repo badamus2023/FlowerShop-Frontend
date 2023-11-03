@@ -23,7 +23,7 @@ const CartItem = (props) => {
     return (
     <li>
         <div className={classes.itemContainer}>
-            <div className={classes.flowerImage}><img src={`http://localhost:3000/${imgSrc}`} alt={name}/></div>
+            <div className={classes.flowerImage}><img src={`https://flowershop-backend-production.up.railway.app/${imgSrc}`} alt={name}/></div>
                 <div className={classes.flowerName}>{name}</div>
                 <div className={classes.flowerPrice}>{total}zł</div>
                 <div className={classes.flowerQuantity}>x{quantity}</div>
