@@ -25,7 +25,7 @@ const InDevelopment = (props) => {
     return (
       <Modal onClose={props.onClose}>
         <div className={classes.inDevelopmentContainer}>
-          <h1>Element w trakcie prac</h1>
+          <h1>Element w trakcie prac !</h1>
           <h3>Możesz wybrać :</h3>
           <div className={classes.actions}>
             <button onClick={adminMode}>Admin Mode</button>

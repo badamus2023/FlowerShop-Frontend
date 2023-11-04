@@ -55,26 +55,37 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header {
-      height: 8vh;
-      letter-spacing: 1px;
-    }
-  
-    .header img {
-      height: 4rem;
-    }
-  
-    .hmenu button {
-      font-size: 12px;
-    }
-  
-    .hbot {
-      height: 2.5rem;
-    }
-  
-    .hbot h6 {
-      font-size: 10px;
-    }
+  .header {
+    height: 8vh;
+    letter-spacing: 1px;
+  }
+
+  .mainText h2, .mainText h3 {
+    font-size: 16px;
+  }
+
+  .hbotText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .header img {
+    height: 3rem;
+  }
+
+  .hmenu button {
+    font-size: 12px;
+  }
+
+  .hbot {
+    height: 2.5rem;
+  }
+
+  .hbot h6 {
+    font-size: 10px;
+  }
   }
 
 
