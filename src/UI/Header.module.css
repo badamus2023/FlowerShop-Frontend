@@ -33,6 +33,10 @@
     background-color: #f9f9f9;
 }
 
+.hmenu {
+  gap: 0.5rem;
+}
+
 .hmenu button:hover{
     opacity:0.7;
 }
