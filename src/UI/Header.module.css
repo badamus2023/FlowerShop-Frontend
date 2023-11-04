@@ -1,61 +1,51 @@
+.header, .hbot h6 {
+  font-family: 'Tilt Neon', sans-serif;
+  letter-spacing: 3px;
+}
+
 .header {
-    display: flex;
-    height: 15vh;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    color: #46366D;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    font-family: 'Handlee', cursive;
-    font-family: 'Tilt Neon', sans-serif;
-    background-color: #f9f9f9;
-    letter-spacing: 3px;
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: #46366D;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .header img {
-    height: 7rem;
+  height: 7rem;
 }
 
 .mainImg {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-
-.hmenu {
-    display: flex;
-    gap: 3rem;
-}
-
-.hmenu button{
-    border: none;
-    background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .hmenu {
-  gap: 0.5rem;
+  display: flex;
+  gap: 3rem;
 }
 
-.hmenu button:hover{
-    opacity:0.7;
+.hmenu button {
+  border: none;
+  background-color: white;
+}
+
+.hmenu button:hover {
+  opacity: 0.7;
 }
 
 .hbot {
-    display: flex;
-    flex-direction: column;
-    height: 4rem;
-    background-color: #46366D;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.hbot h6{
-    letter-spacing: 2px;
-    font-family: 'Handlee', cursive;
-    font-family: 'Tilt Neon', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  background-color: #46366D;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,6 +53,7 @@
     height: 8vh;
     letter-spacing: 1px;
   }
+
 
   .mainText h2, .mainText h3 {
     font-size: 16px;
@@ -79,6 +70,10 @@
     height: 3rem;
   }
 
+  .hmenu {
+    gap: 0.5rem;
+  }
+
   .hmenu button {
     font-size: 12px;
   }
@@ -90,6 +85,4 @@
   .hbot h6 {
     font-size: 10px;
   }
-  }
-
-
+}

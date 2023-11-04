@@ -15,7 +15,7 @@ const Header = () => {
       <header className={classes.header}>
         <div className={classes.mainImg}>
           <img src={mainImage} alt="flower" />
-          <div>
+          <div className={classes.mainText}>
             <h2>Kwiaciarnia</h2>
             <h3>Renata Białoń</h3>
           </div>
@@ -27,8 +27,10 @@ const Header = () => {
         </div>
       </header>
       <div className={classes.hbot}>
+        <div className={classes.hbotText}>
         <h6>Kontakt: 785 072 264</h6>
         <h6>Adres: Beskidzka 34, 34-120 Andrychów</h6>
+        </div>
       </div>
     </Fragment>
   );
