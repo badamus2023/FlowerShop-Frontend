@@ -1,3 +1,4 @@
+
 .header, .hbot h6 {
   font-family: 'Tilt Neon', sans-serif;
   letter-spacing: 3px;
@@ -44,9 +45,23 @@
   background-color: #46366D;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   justify-content: center;
-  align-items: center;
+  align-self: center;
   color: white;
 }
+
+.hbotText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.hbotText h6 {
+  margin: 5px 0;
+}
+
 
 @media screen and (max-width: 768px) {
   .header {
@@ -64,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .header img {
