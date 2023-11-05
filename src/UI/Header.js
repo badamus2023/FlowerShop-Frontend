@@ -1,6 +1,5 @@
 import { Fragment } from 'react';
 import classes from './Header.module.css'
-import mainImage from '../assets/image-from-rawpixel-id-2613482-original.png'
 import CartButton from '../components/Cart/CartButton';
 import ProfileButton from '../components/Profile/ProfileButton';
 import { useSelector } from 'react-redux';
@@ -14,7 +13,7 @@ const Header = () => {
     <Fragment>
       <header className={classes.header}>
         <div className={classes.mainImg}>
-          <img src={mainImage} alt="flower" />
+          <img src='https://flowershop-backend-production.up.railway.app/images/mainImage.png' alt="flower" />
           <div className={classes.mainText}>
             <h2>Kwiaciarnia</h2>
             <h3>Renata Białoń</h3>
