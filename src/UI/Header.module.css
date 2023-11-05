@@ -1,5 +1,5 @@
-
-.header, .hbot h6 {
+.header,
+.hbot h6 {
   font-family: 'Tilt Neon', sans-serif;
   letter-spacing: 3px;
 }
@@ -65,12 +65,19 @@
 
 @media screen and (max-width: 768px) {
   .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .header {
     height: 8vh;
     letter-spacing: 1px;
   }
 
-
-  .mainText h2, .mainText h3 {
+  .mainText h2,
+  .mainText h3 {
     font-size: 16px;
   }
 
@@ -95,7 +102,18 @@
   }
 
   .hbot {
-    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: #46366D;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 999;
+    position: relative;
+    margin-top: 7vh;
   }
 
   .hbot h6 {
