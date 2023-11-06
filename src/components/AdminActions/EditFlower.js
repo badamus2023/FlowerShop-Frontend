@@ -23,6 +23,7 @@ const EditFlower = ({flower}) => {
     mutationFn: updateFlower,
     onSuccess: () => {
       queryClient.invalidateQueries(["flowers"]);
+      hideEditModal();
     },
   });
 

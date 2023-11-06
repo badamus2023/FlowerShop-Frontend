@@ -52,4 +52,8 @@
     .inputSections label {
       font-size: 16px;
     }
+
+    .inputSections input {
+      border: solid 1px #46366D;
+    }
   }
